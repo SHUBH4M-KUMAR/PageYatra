@@ -12,8 +12,8 @@ Features:
 
 
 Todo:
-1-  ~code generation using llm~
-2- realtime preview of generated code
+-  ~code generation using llm~
+- realtime preview of generated code
 - add multiple llms in current system
-4- Make UI better and GG 
-5- Your guys demands.
+- Make UI better and GG 
+- Your guys demands.

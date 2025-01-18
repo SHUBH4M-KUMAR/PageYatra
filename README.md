@@ -8,3 +8,12 @@ Features:
 🛠️ Monaco Editor Integration: Enjoy a smooth coding experience with syntax highlighting and auto-completion.
 🚀 One-Click Preview Refresh: No need for manual commands—refresh your live preview with a button.
 💾 Local Development: Keep everything offline and secure, with files saved in a clean directory structure.
+
+
+
+Todo:
+1- ~code generation using llm~
+2- realtime preview of generated code
+3- add multiple llms in current system
+4- Make UI better and GG 
+5- Your guys demands.

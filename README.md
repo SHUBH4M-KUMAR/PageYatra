@@ -91,5 +91,5 @@ Fork the repository.
 Contact
 For any questions or suggestions, feel free to reach out:
 
-Email: shubhambpn1234@gmail.com
-GitHub: shubham_th4kur
+- Email: shubhambpn1234@gmail.com
+- GitHub: shubham_th4kur

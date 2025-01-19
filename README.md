@@ -83,10 +83,10 @@ The frontend will be available at: http://localhost:5173.
 Contributions are welcome! Feel free to open issues or submit pull requests.
 
 Fork the repository.
-Create a new branch: *git checkout -b feature-name.*
-Commit your changes: *git commit -m 'Add feature'.*
-Push to the branch: *git push origin feature-name.*
-Open a pull request.
+1. Create a new branch: *git checkout -b feature-name.*
+2. Commit your changes: *git commit -m 'Add feature'.*
+3. Push to the branch: *git push origin feature-name.*
+4. Open a pull request.
 
 Contact
 For any questions or suggestions, feel free to reach out:

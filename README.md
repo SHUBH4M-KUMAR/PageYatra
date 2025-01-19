@@ -13,7 +13,83 @@ Features:
 
 Todo:
 -  ~code generation using llm~
-- realtime preview of generated code
+- ~realtime preview of generated code~
 - add multiple llms in current system
 - Make UI better and GG 
 - Your guys demands.
+
+### Installation
+
+#### 1. Clone the Repository
+```bash
+git clone https://github.com/your-username/PageYatra.git
+cd PageYatra
+
+```
+
+Install Dependencies
+
+For Frontend:
+```bash
+cd PageYatra
+npm install
+```
+
+For Backend:
+
+```bash
+cd backend
+pip install -r requirements.txt
+```
+
+Configuration
+Frontend Configuration:
+
+Ensure the frontend points to the backend API.
+Update the vite.config.js file if necessary:
+```bash
+proxy: {
+  '/api': {
+    target: 'http://localhost:3001',
+    changeOrigin: true,
+    secure: false,
+  },
+}
+```
+Backend Configuration:
+
+Replace the API_KEY placeholder in backend/app.py with your Gemini API key:
+```bash
+genai.configure(api_key='your-gemini-api-key')
+```
+#Running the Project
+
+1. Start the Backend Server
+```bash
+
+cd backend
+python app.py
+```
+The backend will be available at: http://localhost:3001.
+
+2. Start the Frontend Development Server
+```bash
+cd PageYatra
+npm run dev
+```
+The frontend will be available at: http://localhost:5173.
+
+#Contributing
+Contributions are welcome! Feel free to open issues or submit pull requests.
+
+Fork the repository.
+Create a new branch: *git checkout -b feature-name.*
+Commit your changes: *git commit -m 'Add feature'.*
+Push to the branch: *git push origin feature-name.*
+Open a pull request.
+
+Contact
+For any questions or suggestions, feel free to reach out:
+
+Email: shubhambpn1234@gmail.com
+GitHub: shubham_th4kur

@@ -18,7 +18,7 @@ Todo:
 - Make UI better and GG 
 - Your guys demands.
 
-### Installation
+## Installation
 
 #### 1. Clone the Repository
 ```bash

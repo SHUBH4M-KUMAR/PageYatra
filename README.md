@@ -27,7 +27,7 @@ cd PageYatra
 
 ```
 
-Install Dependencies
+### Install Dependencies
 
 For Frontend:
 ```bash
@@ -42,8 +42,8 @@ cd backend
 pip install -r requirements.txt
 ```
 
-### Configuration
-Frontend Configuration:
+## Configuration
+### Frontend Configuration:
 
 Ensure the frontend points to the backend API.
 Update the vite.config.js file if necessary:
@@ -56,13 +56,13 @@ proxy: {
   },
 }
 ```
-Backend Configuration:
+### Backend Configuration:
 
 Replace the API_KEY placeholder in backend/app.py with your Gemini API key:
 ```bash
 genai.configure(api_key='your-gemini-api-key')
 ```
-### Running the Project
+## Running the Project
 
 1. Start the Backend Server
 ```bash
@@ -79,7 +79,7 @@ npm run dev
 ```
 The frontend will be available at: http://localhost:5173.
 
-### Contributing
+## Contributing
 Contributions are welcome! Feel free to open issues or submit pull requests.
 
 Fork the repository.
@@ -88,7 +88,7 @@ Fork the repository.
 3. Push to the branch: *git push origin feature-name.*
 4. Open a pull request.
 
-### Contact
+## Contact
 For any questions or suggestions, feel free to reach out:
 
 - Email: shubhambpn1234@gmail.com

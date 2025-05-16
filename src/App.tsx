@@ -29,7 +29,7 @@ const App: React.FC = () => {
     setError('');
 
     try {
-      const response = await axios.post('http://localhost:3001/api/generateCode', {
+      const response = await axios.post('https://pageyatra.onrender.com/api/generateCode', {
         prompt,
         filename,
       });

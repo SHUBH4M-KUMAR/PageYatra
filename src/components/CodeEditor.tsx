@@ -1,6 +1,6 @@
 import React from 'react';
 import MonacoEditor from './MonacoEditor';
-import { Button } from '@/components/ui/button'; // Optional: Use shadcn/ui Button component
+import { Button } from './ui/button'// Optional: Use shadcn/ui Button component
 
 interface CodeEditorProps {
   editorContent: string;

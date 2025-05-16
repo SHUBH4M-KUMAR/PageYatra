@@ -8,7 +8,7 @@ import os
 project_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))  # adjust based on your structure
 
 # Configure the Gemini API
-genai.configure(api_key='AIzaSyAPG9n_OVIypNFkASL7Yrby-GAK5QwX-ok')
+genai.configure(api_key='google_api')
 
 app = Flask(__name__)
 CORS(app, resources={r"/api/*": {"origins": "*"}})
